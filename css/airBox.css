@@ -1,0 +1,340 @@
+body {
+
+    margin: 0 auto;
+    background: white; 
+    position: relative;
+}
+
+.headerparent {
+    
+    background: rgb(40, 37, 56);
+}
+.header {
+    border-bottom: 1px solid #b1abab21;
+}
+
+
+
+.navbar { 
+    text-align: right;
+}
+
+nav {
+    margin-top: 40px;
+}
+
+.navbar a {
+    color: #b1abab69;
+    font-family: Slack-Lato,appleLogo,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.heroparent {
+    background: -webkit-linear-gradient(rgb(40, 37, 56), rgb(71, 59, 69));
+
+}
+.hero {
+    height: 300px;
+}
+.hero-inner {
+
+    font-family: Slack-Lato,appleLogo,sans-serif;
+    /*padding: 20px 40px;*/
+    color: white;
+    text-align: center;
+}
+.hero h2 {
+    text-align: center;
+}
+.hero h2 small {
+    color: rgb(179, 177, 177);
+    font-size: 25px;
+    font-weight: 100;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero h2 span {
+    font-size: 50px;
+    text-transform: bold;
+}
+
+.hero h2 bottom {
+    font-size: 40px;
+    color: rgb(179, 177, 177);
+    font-weight: 100;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 370px;
+    margin-left: 282px;
+    text-align: center;
+}
+
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    background: rgb(107, 108, 126);
+    font-size: 13px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.theprimary {
+    background: linear-gradient(#f4a166, #e48d56);
+}
+
+.primary-content {
+    font-family: Slack-Lato,appleLogo,sans-serif;
+    color: white;
+    padding: 20px 0;
+}
+
+.primary-content p {
+    color: black;
+}
+
+.primary-content h2 thin {
+    font-weight: 100;
+}
+
+.primary-content img {
+    height: 115px;
+    width: 115px;
+}
+
+.primary {
+    font-size: 14px;
+    text-align: center;
+}
+
+.secondary {
+
+    background: rgb(238, 236, 236);
+}
+.secondary-content {
+    height: 320px;
+    font-family: Slack-Lato,appleLogo,sans-serif;
+}
+
+.secondary-content ul {
+
+    list-style: none;
+    font-size: 15px;
+}
+
+
+.secondary-content h3 {
+    width: 206px;
+    height: 30px;
+    background: #8e8bb7;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid black;
+    text-shadow: 2px .01px black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #f1ecec59;
+}
+
+.secondary-content p {
+    width: 206px;
+    height: 40px;
+    background: #8e8bb7;
+    color: #bfb2ce;
+    border: 1px solid black;
+    margin-top: -18px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px .01px black;
+    border-top: 1px solid #f1ecec59;
+}
+
+.secondary-content p span {
+    color: orange;
+    font-size: 13px;
+}
+
+.secondary-content ul {
+    padding: 0 0;
+}
+
+.numone {
+    width: 188px;
+    border: 1px solid black;
+    padding: 5px 9px;
+    margin-top: -31px;
+    background: #e6e7ed;
+    text-align: center;
+    font-size: 10px;
+}
+
+.numtwo {
+    width: 188px;
+    border: 1px solid black;
+    padding: 5px 9px;
+    margin-top: -1px;
+    background: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.numthree {
+    width: 188px;
+    border: 1px solid black;
+    padding: 5px 9px;
+    margin-top: -1px;
+    background: #e6e7ed;
+    text-align: center;
+    font-size: 10px;
+}
+
+.numfour {
+    width: 188px;
+    border: 1px solid black;
+    padding: 5px 9px;
+    margin-top: -1px;
+    background: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.numfive {
+    background:white;
+    border: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 188px;
+    padding: 5px 9px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: -1px;
+}
+
+.signup {
+    text-decoration: none;
+    background: linear-gradient(#f9ce7e, orange);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 32px;
+
+}
+
+.tertiary {
+
+    background: rgb(40, 37, 56);
+    margin-top: -48px;
+}
+
+.tertiary-content {
+    color: white;
+    font-family: Slack-Lato,appleLogo,sans-serif;
+}
+
+.tertiary-content h3 {
+    margin-top: 43px;
+}
+
+.tertiary-content ul {
+    padding: 0 10px;
+    list-style: none; 
+    line-height: 20px;
+  }
+  
+.tertiary-content ul li::before {
+    content: "\2022"; 
+    color: orange;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+.tertiary-content li {
+    font-size: 10px;
+}
+
+
+.tertiary-content p {
+    font-size: 11px;
+    color: rgb(129, 113, 153);
+}
+
+.tertiary-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    background: #f29964;
+    padding: 9px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.hostingServices {
+
+width: 208px;
+height: 300px;
+border-radius: 2px;
+}*/
+.serverSolutions {
+    width: 208px;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.emailSolutions {
+    width: 208px;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.moreProducts {
+    width: 208px;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.footerparent {
+    background: rgb(48, 45, 62);
+}
+
+.footer {
+    height: 90px;
+    position: relative;
+}
+
+
+.copyrightparent {
+    background: rgb(27, 26, 34);
+}
+
+.copyright p {
+
+    color: gray;
+    font-size: 9px;
+    font-family: Slack-Lato,appleLogo,sans-serif;
+}
+
